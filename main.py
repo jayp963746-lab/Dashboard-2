@@ -18,7 +18,7 @@ from dotenv import load_dotenv
 load_dotenv()
 TOKEN         = os.getenv("DISCORD_TOKEN")
 DB_PATH       = os.getenv("BOT_DB_PATH", "bot.db")
-DASHBOARD_URL = os.getenv("DASHBOARD_URL", "http://localhost:5000")
+DASHBOARD_URL = os.getenv("DASHBOARD_URL", "https://heavenly-6zal.onrender.com")
 
 intents = discord.Intents.default()
 intents.message_content = True
